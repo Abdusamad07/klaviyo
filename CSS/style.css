@@ -1,0 +1,418 @@
+html
+{
+    box-sizing: border-box;
+}
+*,
+*::before,
+*::after
+{
+    box-sizing: inherit;
+}
+body
+{
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+    font-family:sans-serif;
+}
+.container
+{
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+    /* background-color: green; */
+}
+.main-btn-link
+{
+    background-color: #24ad69;
+    padding:1px 0px;
+    transform: rotateY(360deg);
+}
+.main-btn a
+{
+    margin-top: -15px;
+    /* border: solid 2px white; */
+    display: block;
+    font-size: 27px;
+    text-align: center;
+    line-height: 0;
+    text-decoration: none;
+    color: white;
+}
+.main-link
+{
+    text-decoration: underline;
+}
+.menu-btn
+{
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.menu-ul
+{
+    padding-left: 80px;
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin-right: 200px;
+}
+.menu-ul li
+{
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+    border-bottom: solid 3px transparent;
+    padding-bottom: 25px;
+    transition: 0.3s ease;
+}
+.menu-ul li:hover
+{
+    border-bottom: solid 3px #24ad69;
+}
+
+.section-sub-menu ul
+{
+    display: none;
+    position: absolute;
+    list-style-type: none;
+    left: 0;
+    right: 0; 
+    padding: 0;  
+    top: 35%;
+}
+.section-sub-menu ul li
+{
+    padding: 5px 10px;
+    background-color: rgb(5, 128, 5);
+}
+.section-sub-menu ul li:hover
+{
+    background-color: rgb(2, 255, 2);
+}
+.section-sub-menu ul li a
+{
+    text-decoration: none;
+    color: white;
+}
+
+
+.menu-ul a
+{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+}
+.menu-a
+{
+   
+    padding-bottom: 25px;
+}
+.menu-a:hover .section-sub-menu ul
+{
+    display: block;
+}
+.menu-a:hover .sign-sub-menu
+{
+    display: block;
+}
+.demo 
+{
+     text-decoration: none;
+     color:#24ad69 ;
+     font-size: 20px;
+     border: solid 2px #24ad69;
+     padding: 5px 10px ;
+     margin-right: 20px;
+     transition: 0.6s ease; 
+}
+.demo:hover 
+{
+    background-color: #24ad69;
+    color: white;
+   
+}
+.sign
+{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    background-color: #24ad69;
+    padding: 5px 10px;
+    margin-right: 20px;
+    
+}
+
+.sign-sub-menu
+{
+    display: none;
+    position: absolute;
+    background-color: rgb(15, 235, 15);
+    color: white;
+    padding: 20px 50px;
+    border-radius: 20px;
+    top: 200px;
+    width: 350px;
+    left:30%;
+}
+.sign-sub-menu h1
+{
+    color: white;
+    text-align: center;
+}
+.button-form
+{
+    text-align: center;
+}
+.sign-sub-menu button
+{
+    border: none;
+    outline: none;
+    background-color: #fff;
+    padding: 5px 30px;
+    border-radius: 5px;
+}
+.sign-sub-menu input
+{
+    border: none;
+    outline: none;
+    padding: 5px;
+    width: 250px;
+    margin-bottom: 20px;
+}
+.sign:hover
+{
+    background-color: rgb(68, 150, 68);
+   
+}
+.log
+{
+    text-decoration: none;
+    color: #24ad69;
+}
+.log:hover
+{
+    color: black;
+}
+h1
+{
+    color: rgb(68, 67, 67);
+}
+h3
+{
+    color: rgb(68, 67, 67);
+}
+p
+{
+    color: rgb(68, 67, 67);
+    font-size: 20px;
+}
+.section-one
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 90px;
+}
+.section-one h1
+{
+    font-size: 45px;
+    
+}
+.section-one p
+{
+    font-weight: 400;
+    width: 490px;
+    line-height: 1.8;
+    
+}
+.in-label
+{
+    border: solid 1px rgb(161, 159, 159);
+    border-radius: 5px;
+    padding: 10px;
+    line-height: 1;
+    margin-bottom: 10px;
+}
+.section-one label
+{
+    font-size: 10px;
+    color: gray;
+}
+.section-one input
+{
+    border: none;
+    outline: none;
+    font-size: 20px;
+}
+.section-one button
+{
+    border: none;
+    outline: none;
+    background-color: #24ad69;
+    color: white;
+    font-size: 16px;
+    padding: 15px 70px;
+    border-radius: 5px;
+}
+.section-one img
+{
+    margin-top: -30px;
+}
+.section-two-main
+{
+    text-align: center;
+    padding-bottom: 70px;
+}
+.section-two-main h1
+{
+    font-size: 40px;
+    color: rgb(68, 67, 67);
+}
+.section-two-main p
+{
+    line-height: 1.8;
+    color: rgb(68, 67, 67);
+}
+.section-two-text
+{
+    padding: 0 30px;
+    justify-content: space-between;
+    display: flex;
+    padding-bottom: 150px;
+}
+.section-two-text p
+{
+    width: 310px;
+}
+.section-three
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 70px;
+}
+.section-three h1
+{
+    font-size: 45px;
+}
+.section-three p
+{
+    font-weight: 450;
+    width: 490px;
+    line-height: 1.8;
+}
+.section-four
+{
+    padding-bottom: 70px;
+}
+
+.section-four-input
+{
+    display: flex;
+    /* text-align: center; */
+    padding-bottom: 30px;
+    margin-top: -60px;
+    
+}
+.form-input
+{
+    margin-left: 28%;
+}
+.input-label
+{
+    border: solid 1px rgb(161, 159, 159);
+    padding: 10px;
+    line-height: 1;
+    margin-bottom: 10px;
+    width: 400px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.section-four label
+{
+    font-size: 10px;
+    color: gray;
+}
+.section-four input
+{
+    border: none;
+    outline: none;
+    font-size: 20px;
+}
+.section-four button
+{
+    height: 63px;
+    /* display:block; */
+    border: none;
+    outline: none;
+    background-color: #24ad69;
+    color: white;
+    font-size: 15px;
+    padding: 0px 40px;
+    /* border-radius: 5px; */
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.marketing
+{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 180px;
+}
+.marketing img
+{
+    margin: 0 25px;
+}
+.brands
+{
+    text-align: center;
+    margin: 0;
+    padding-bottom: 100px;
+}
+.section-span
+{
+    color: black;
+}
+hr
+{
+    margin-bottom: 70px;
+}
+.footer-menu
+{
+    background-color: #24ad69;
+}
+.footer-btn
+{
+    display: flex;
+    margin-left: 30%;
+}
+.footer-btn h4
+{
+    margin-left: 50px;  
+}
+
+.footer-btn li
+{   
+    padding-bottom: 20px;
+    list-style: none;
+    padding-left: 10px;
+}
+.footer-btn a
+{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+}
+.footer-btn a:hover
+{
+    color:white;
+}
+/* .footer-span
+{
+   background-color: rgb(118, 187, 118);
+   padding: 10px;
+   border-radius: 10px;
+   color: white;
+} */
